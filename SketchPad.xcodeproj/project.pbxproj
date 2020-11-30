@@ -13,6 +13,7 @@
 		271ADBF72565CAE300025808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADBF52565CAE300025808 /* Main.storyboard */; };
 		271ADBF92565CAE600025808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271ADBF82565CAE600025808 /* Assets.xcassets */; };
 		271ADBFC2565CAE600025808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271ADBFA2565CAE600025808 /* LaunchScreen.storyboard */; };
+		27FB45D1257573BD00F86DEE /* capture-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27FB45D0257573BD00F86DEE /* capture-sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		271ADBF82565CAE600025808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271ADBFB2565CAE600025808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271ADBFD2565CAE600025808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FB45D0257573BD00F86DEE /* capture-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "capture-sound.mp3"; path = "../../../../Downloads/capture-sound.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				271ADBEF2565CAE300025808 /* AppDelegate.swift */,
 				271ADBF12565CAE300025808 /* SceneDelegate.swift */,
-				271ADBF32565CAE300025808 /* ViewController.swift */,
+				27FB45D0257573BD00F86DEE /* capture-sound.mp3 */,
 				271ADBF52565CAE300025808 /* Main.storyboard */,
+				271ADBF32565CAE300025808 /* ViewController.swift */,
 				271ADBF82565CAE600025808 /* Assets.xcassets */,
 				271ADBFA2565CAE600025808 /* LaunchScreen.storyboard */,
 				271ADBFD2565CAE600025808 /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271ADBFC2565CAE600025808 /* LaunchScreen.storyboard in Resources */,
+				27FB45D1257573BD00F86DEE /* capture-sound.mp3 in Resources */,
 				271ADBF92565CAE600025808 /* Assets.xcassets in Resources */,
 				271ADBF72565CAE300025808 /* Main.storyboard in Resources */,
 			);
