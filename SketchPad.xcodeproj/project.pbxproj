@@ -25,6 +25,7 @@
 		271ADBF82565CAE600025808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271ADBFB2565CAE600025808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271ADBFD2565CAE600025808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276D745725AA59EA00E9D85D /* capture-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "capture-sound.mp3"; sourceTree = "<group>"; };
 		27FB45D0257573BD00F86DEE /* capture-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "capture-sound.mp3"; path = "../../../../Downloads/capture-sound.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +61,7 @@
 			children = (
 				271ADBEF2565CAE300025808 /* AppDelegate.swift */,
 				271ADBF12565CAE300025808 /* SceneDelegate.swift */,
+				276D745625AA59EA00E9D85D /* sound */,
 				27FB45D0257573BD00F86DEE /* capture-sound.mp3 */,
 				271ADBF52565CAE300025808 /* Main.storyboard */,
 				271ADBF32565CAE300025808 /* ViewController.swift */,
@@ -68,6 +70,14 @@
 				271ADBFD2565CAE600025808 /* Info.plist */,
 			);
 			path = SketchPad;
+			sourceTree = "<group>";
+		};
+		276D745625AA59EA00E9D85D /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				276D745725AA59EA00E9D85D /* capture-sound.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
